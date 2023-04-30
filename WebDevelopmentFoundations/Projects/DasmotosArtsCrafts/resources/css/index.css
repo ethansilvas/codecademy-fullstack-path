@@ -10,7 +10,7 @@ body {
 }
 
 main * {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 h1 {
@@ -20,4 +20,22 @@ h1 {
     color: khaki;
     text-align: center;
     margin: 50px 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
 }
