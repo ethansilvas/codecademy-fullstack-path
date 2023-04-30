@@ -39,3 +39,12 @@ h2 {
 #paint {
     background-color: skyblue;
 }
+
+.art-item {
+    margin-top: 30px;
+}
+
+.starting-price {
+    font-weight: bold;
+    color: blue;
+}
