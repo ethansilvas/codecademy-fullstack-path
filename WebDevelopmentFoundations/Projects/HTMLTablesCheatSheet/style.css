@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
+    background-color: gainsboro;
 }
 
 main * {
@@ -16,12 +17,24 @@ h1, h2 {
     text-align: center; 
 }
 
+h2 {
+    color: #4e49b3;
+}
+
 table {
     width: 650px;
     margin: 0 auto;
     border: 1px solid black;
 }
 
+thead {
+    background-color: #87b5ff;
+}
+
 table td {
     border-top: 1px solid black;
+}
+
+.code {
+    background-color: beige;
 }
