@@ -7,3 +7,20 @@
 body {
     font-family: 'Roboto Mono', monospace;
 }
+
+main * {
+    margin: 10px;
+}
+
+h1, h2 {
+    text-align: center; 
+}
+
+table {
+    width: 650px;
+    margin: 0 auto;
+}
+
+table td {
+    border: 1px solid black;
+}
