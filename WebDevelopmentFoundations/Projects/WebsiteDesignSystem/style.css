@@ -22,12 +22,22 @@ section {
     padding: 10px;
 }
 
-.color-tiles li {
+ul {
+    list-style: none;
+}
+
+ul li {
     display: inline-block;
+}
+
+/* Colors section
+   ========================================================================== */
+.color-tiles li {
     width: 250px;
     padding: 10px 0;
     text-align: center;
     margin-top: 30px;
+    margin-right: 30px;
 }
 
 #cool-blue {
@@ -47,3 +57,13 @@ section {
     background-color: #efd9ca;
 }
 
+/* Fonts section
+   ========================================================================== */
+
+.fonts-tiles li {
+    margin-right: 60px;
+}
+
+
+/* Text Styles section
+   ========================================================================== */
