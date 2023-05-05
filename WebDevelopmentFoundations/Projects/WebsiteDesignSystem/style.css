@@ -72,6 +72,15 @@ ul li {
     margin-right: 60px;
 }
 
+.fonts-tiles p {
+    margin-bottom: 20px;
+}
+
+.fonts-name {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
 #source-code-pro {
     font-family: 'Source Code Pro', monospace;
 }
