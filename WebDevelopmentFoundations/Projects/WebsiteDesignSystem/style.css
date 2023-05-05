@@ -24,6 +24,26 @@ section {
 
 .color-tiles li {
     display: inline-block;
-    padding: 10px 80px;
+    width: 250px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#cool-blue {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+#pink {
+    background-color: #d957d9;
+}
+
+#mint-green {
+    background-color: #4fe0b0;
+}
+
+#beige {
+    background-color: #efd9ca;
 }
 
