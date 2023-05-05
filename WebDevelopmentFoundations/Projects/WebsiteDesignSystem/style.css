@@ -30,6 +30,14 @@ ul li {
     display: inline-block;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
 /* Colors section
    ========================================================================== */
 .color-tiles li {
@@ -64,6 +72,13 @@ ul li {
     margin-right: 60px;
 }
 
+#source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#poppins {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* Text Styles section
    ========================================================================== */
