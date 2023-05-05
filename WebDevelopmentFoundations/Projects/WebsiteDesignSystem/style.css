@@ -91,3 +91,13 @@ ul li {
 
 /* Text Styles section
    ========================================================================== */
+
+.text-styles ul {
+    list-style: disc;
+    padding-left: 50px;
+    margin: 20px 0;
+}
+
+.text-styles li {
+    display: list-item;
+}
