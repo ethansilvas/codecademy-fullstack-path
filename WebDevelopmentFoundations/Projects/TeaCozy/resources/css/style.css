@@ -148,6 +148,7 @@ Locations
 .locations-list li {
     background-color: black;
     width: 300px;
+    opacity: 1.0;
 }
 
 .locations-list li * {
