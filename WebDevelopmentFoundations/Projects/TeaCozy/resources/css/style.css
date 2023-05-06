@@ -48,7 +48,13 @@ Main content
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#our-mission, #tea-otm {
+    margin-bottom: 90px;
 }
 
 /*
