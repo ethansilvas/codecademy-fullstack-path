@@ -171,5 +171,19 @@ Footer
 footer {
     position: relative;
     top: 69px;
+    padding-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#copyright {
+    margin-left: 20px;
 }
 
