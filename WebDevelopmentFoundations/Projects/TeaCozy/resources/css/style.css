@@ -4,6 +4,41 @@
     box-sizing: border-box;
 }
 
+body {
+    color: seashell;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
 main * {
     margin: 10px;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    padding: 0 10px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .nav, .nav li {
+    display: inline-block;
+}
+
+.nav li {
+    text-decoration: underline;
+}
+
+.nav li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.logo {
+    font-size: 50px;
 }
