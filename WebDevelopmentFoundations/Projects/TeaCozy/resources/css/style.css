@@ -97,3 +97,21 @@ Tea of the month
     width: 1000px;
 }
 
+.tea-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.tea-list li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.tea-list img {
+    height: 200px;
+    width: 300px;
+}
+
