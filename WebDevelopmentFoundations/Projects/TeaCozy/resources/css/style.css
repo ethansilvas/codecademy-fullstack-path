@@ -12,16 +12,14 @@ body {
     opacity: 0.9;
 }
 
-main * {
-    margin: 10px;
-}
-
+/*
+Top Nav Bar
+========================================================================
+*/
 header {
     height: 69px;
     border-bottom: 1px solid seashell;
     padding: 0 10px;
-    position: fixed;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,3 +40,39 @@ header {
 .logo {
     font-size: 50px;
 }
+
+/*
+Main content
+========================================================================
+*/
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+Our Mission
+========================================================================
+*/
+
+#our-mission {
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-header h2 {
+    margin-bottom: 20px;
+}
+
