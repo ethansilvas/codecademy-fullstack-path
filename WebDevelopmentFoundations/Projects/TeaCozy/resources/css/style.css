@@ -12,6 +12,10 @@ body {
     opacity: 0.9;
 }
 
+ul {
+    list-style: none;
+}
+
 /*
 Top Nav Bar
 ========================================================================
@@ -101,7 +105,6 @@ Tea of the month
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    list-style: none;
     margin-top: 20px;
 }
 
@@ -124,6 +127,35 @@ Locations
     background-image: url(../images/img-locations-background.jpg);
     height: 500px;
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+.locations-list {
+    display: flex;
+    justify-content: center;
+}
+
+.locations-list h3 {
+    margin-top: 30px;
+}
+
+.locations-list li {
+    background-color: black;
+    width: 300px;
+}
+
+.locations-list li * {
+    margin-bottom: 30px;
+}
+
+.locations-list li:not(:last-child) {
+    margin-right: 40px;
 }
 
 /*
