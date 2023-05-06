@@ -113,6 +113,10 @@ Tea of the month
     margin-bottom: 30px;
 }
 
+.tea-list h4 {
+    margin-top: 10px;
+}
+
 .tea-list img {
     height: 200px;
     width: 300px;
