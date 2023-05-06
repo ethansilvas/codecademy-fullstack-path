@@ -115,3 +115,24 @@ Tea of the month
     width: 300px;
 }
 
+/*
+Locations
+========================================================================
+*/
+
+#locations {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+}
+
+/*
+Footer
+========================================================================
+*/
+
+footer {
+    position: relative;
+    top: 69px;
+}
+
