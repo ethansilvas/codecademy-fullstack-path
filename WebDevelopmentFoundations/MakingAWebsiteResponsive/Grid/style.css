@@ -5,15 +5,15 @@
     display: grid;
     grid-template: repeat(2, 200px) / 25% 25% 2fr 1fr;
     gap: 10px 15px;
-  }
-  
-  .box {
+}
+
+.box {
     background-color: beige;
     color: black;
     border-radius: 5px;
     border: 2px dodgerblue solid;
-  }
-  
-  .a {
+}
+
+.a {
     grid-area: 1 / 1 / span 2 / span 2;
-  }
+}

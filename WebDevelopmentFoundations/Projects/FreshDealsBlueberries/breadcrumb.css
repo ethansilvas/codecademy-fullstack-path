@@ -1,24 +1,23 @@
 .breadcrumb {
-    margin: 10px 0;
-  }
-  
-  .breadcrumb li {
-    display: inline;
-    color: hsla(88, 100%, 25%, 1);
-  }
-  
-  .breadcrumb li.location+li.location::before {
-    content: ">";
-  }
-  
-  li.attribute {
-    color: cyan;
-    padding-left: 10px;
-  }
-  
-  li.attribute::after {
-    content: "x";
-    vertical-align: super;
-    color: red;
-  }
-  
+  margin: 10px 0;
+}
+
+.breadcrumb li {
+  display: inline;
+  color: hsla(88, 100%, 25%, 1);
+}
+
+.breadcrumb li.location+li.location::before {
+  content: ">";
+}
+
+li.attribute {
+  color: cyan;
+  padding-left: 10px;
+}
+
+li.attribute::after {
+  content: "x";
+  vertical-align: super;
+  color: red;
+}

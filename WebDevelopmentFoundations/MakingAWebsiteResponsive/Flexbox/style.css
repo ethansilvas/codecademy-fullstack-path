@@ -1,125 +1,125 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: 'Libre Baskerville', sans-serif;
-  }
-  
-  img {
+}
+
+img {
     margin: 10px auto;
     height: auto;
     width: auto;
-  }
-  
-  ul {
+}
+
+ul {
     text-align: right;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 20px;
-  }
-  
-  /*Sizing*/
-  
-  .container {
+}
+
+/*Sizing*/
+
+.container {
     margin: 0 auto;
-  }
-  
-  .spacer {
+}
+
+.spacer {
     max-width: 1200px;
     margin: auto;
-  }
-  
-  .main {
-      background-color: #ffc200;
-  }
-  
-  /*Header Section*/
-  
-  .header {
+}
+
+.main {
+    background-color: #ffc200;
+}
+
+/*Header Section*/
+
+.header {
     padding: 30px 0px 40px;
     margin-left: 50px;
     margin-right: 50px;
-  }
-  
-  .header li {
+}
+
+.header li {
     list-style: none;
     display: inline-block;
-  }
-  
-  .header li a {
+}
+
+.header li a {
     color: #333;
-    margin:0;
-    border:0px;
-  }
-  
-  /*Jumbotron Section*/
-  
-  .jumbotron {
+    margin: 0;
+    border: 0px;
+}
+
+/*Jumbotron Section*/
+
+.jumbotron {
     background-color: #fff;
     max-width: 1200px;
     margin-left: 50px;
-  }
-  
-  .jumbotron h2 {
+}
+
+.jumbotron h2 {
     font-size: 50px;
     margin-bottom: 70px;
-  }
-  
-  .jumbotron h2 span {
-    color:#ffc200;
-  }
-  
-  .jumbotron p {
+}
+
+.jumbotron h2 span {
+    color: #ffc200;
+}
+
+.jumbotron p {
     text-shadow: 0 0;
     font-size: 16px;
     color: #666;
     margin-bottom: 0;
-  }
-  
-  /*Banner Section*/
-  .banner {
+}
+
+/*Banner Section*/
+.banner {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  /*Expertise Section*/
-  .cards {
+}
+
+/*Expertise Section*/
+.cards {
     background-color: #ffc200;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  .col {
+}
+
+.col {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  #expertise {
+}
+
+#expertise {
     padding: 20px;
     background-color: #ffc200;
     margin: 0;
     text-align: center;
-  }
-  
-  /*Footer Section*/
-  .footer {
+}
+
+/*Footer Section*/
+.footer {
     padding: 60px 0px;
     background-color: #000;
     color: #fff;
-  }
-  
-  .footer h3 {
+}
+
+.footer h3 {
     font-size: 20px;
     margin-left: 20px;
-  }
-  
-  .footer p {
-    font-size:12px;
+}
+
+.footer p {
+    font-size: 12px;
     margin-bottom: 0;
     margin-left: 20px;
-  }
-  
+}

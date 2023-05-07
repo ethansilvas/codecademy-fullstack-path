@@ -1,47 +1,47 @@
 a {
-    color: aqua;
-    text-decoration: underline;
-    cursor: pointer;
-   }
-   
-   a:hover {
-     color: darkturquoise;
-     text-decoration: none;
-   }
-   
-   .nav-link:hover {
-     color: cornflowerblue;
-   }
-   
-   .nav-link:active {
-     color: navy;
-   }
-   
-   .btn {
-     background-color: lightskyblue;
-     color: navy;
-     padding: 15px;
-     border-radius: 30px;
-     font-family: 'Raleway', sans-serif;
-   }
-   
-   .btn:hover {
-     color: darkslateblue;
-   }
-   
-   .btn:active {
-     color: white;
-   }
-   
-   .activity {
-     border-radius: 20px;
-   }
-   
-   .activity:hover {
-     color: powderblue;
-     box-shadow: 10px 10px inset;
-   }
-   
-   .activity:active {
-     color: blanchedalmond;
-   }
+  color: aqua;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  color: darkturquoise;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: cornflowerblue;
+}
+
+.nav-link:active {
+  color: navy;
+}
+
+.btn {
+  background-color: lightskyblue;
+  color: navy;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+  color: darkslateblue;
+}
+
+.btn:active {
+  color: white;
+}
+
+.activity {
+  border-radius: 20px;
+}
+
+.activity:hover {
+  color: powderblue;
+  box-shadow: 10px 10px inset;
+}
+
+.activity:active {
+  color: blanchedalmond;
+}

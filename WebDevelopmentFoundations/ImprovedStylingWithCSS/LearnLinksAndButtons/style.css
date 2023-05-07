@@ -1,39 +1,42 @@
 .question-link:visited {
-color: #ffffff;
+    color: #ffffff;
 }
 
 a {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
-a, .answer {
-cursor: pointer;
+a,
+.answer {
+    cursor: pointer;
 }
 
 a:link {
-color: #61bff9;
+    color: #61bff9;
 }
 
-a:visited, .answer {
-color: #466995;
+a:visited,
+.answer {
+    color: #466995;
 }
 
-a:hover { 
-text-decoration: none;
+a:hover {
+    text-decoration: none;
 }
 
-a:active, .answer:active {
-color: #DBE9EE;
+a:active,
+.answer:active {
+    color: #DBE9EE;
 }
 
 .answer {
-border: 1px solid #466995;
+    border: 1px solid #466995;
 }
 
 .answer:hover {
-background-color: #C0D6DF;
+    background-color: #C0D6DF;
 }
 
 .answer:active {
-color: #ffffff;
+    color: #ffffff;
 }
