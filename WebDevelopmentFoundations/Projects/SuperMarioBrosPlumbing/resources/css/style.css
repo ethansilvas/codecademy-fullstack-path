@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav li {
+    display: inline-block;
+}
+
+/* Intro content */
+
+#intro-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3cc41;
+    height: 31rem;
+}
+
+#intro-mario-bros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-logo-container {
+    width: 50%;
+}
+
+#main-logo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
