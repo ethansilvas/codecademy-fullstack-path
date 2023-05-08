@@ -27,6 +27,8 @@ html {
 
 .image-container img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width: 760px) {
@@ -298,6 +300,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+    display: flex;
     max-width: 100%;
     padding: 0 1%;
 }
