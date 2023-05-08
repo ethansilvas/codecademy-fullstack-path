@@ -272,6 +272,10 @@ header .mobile {
         margin: 0;
         padding: 1.25rem 1rem 0 1rem;
     }
+
+    .feature .content {
+        margin: 1rem;
+    }
 }
 
 /* Filters Section */
@@ -338,7 +342,10 @@ header .mobile {
 /* Quotes Section */
 
 #quotes-section {
+    font-size: 1.875rem;
     background-color: #f3f3f3;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #quotes-section content {
