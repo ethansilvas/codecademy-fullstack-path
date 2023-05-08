@@ -8,10 +8,22 @@ html {
     font-size: 16px;
 }
 
+body {
+    font-family: "Oswald", sans-serif; 
+}
+
 img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.red {
+    color: #f81621;
+}
+
+.green {
+    color: #179c42;
 }
 
 /* Header */
@@ -26,8 +38,6 @@ header {
 .header-nav {
     display: flex;
     column-gap: 3rem;
-    color: #f81621;
-    font-family: "Oswald", sans-serif;
     font-size: 1.5rem;
 }
 
@@ -46,15 +56,14 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #f3cc41;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 3rem;
 }
 
 #intro-mario-bros {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Oswald", sans-serif;
     font-size: 3rem;
     row-gap: 0.8rem;
 }
@@ -67,4 +76,43 @@ header {
     width: 15%;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    #intro-content {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    #bros-container {
+        display: none;
+    }
+}
+
+/* Our Services */
+
+#our-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+    padding: 3rem;
+}
+
+#our-services-statement {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    max-width: 45%;
+}
+
+#our-services-statement ul {
+    padding-left: 3rem;
+}
+
+@media only screen and (min-width: 1480px) {
+    #our-services {
+        padding-left: 15rem;
+    }
 }
