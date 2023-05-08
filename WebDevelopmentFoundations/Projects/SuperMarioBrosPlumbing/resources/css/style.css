@@ -8,16 +8,35 @@ html {
     font-size: 16px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Header */
 header {
     display: flex;
     border-bottom: 1px solid black;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.header-nav {
+    display: flex;
+    column-gap: 3rem;
+    color: #f81621;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
 }
 
 .header-nav li {
     display: inline-block;
+}
+
+#header-logo {
+    width: 10%;
 }
 
 /* Intro content */
@@ -29,12 +48,6 @@ header {
     background-color: #f3cc41;
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
-
-#intro-content img {
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
 
 #intro-mario-bros {
