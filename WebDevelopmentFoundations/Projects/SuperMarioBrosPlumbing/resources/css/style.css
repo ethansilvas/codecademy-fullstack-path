@@ -92,6 +92,18 @@ header {
     }
 }
 
+@media only screen and (min-width: 1600px) {
+    #intro-content {
+        padding-right: 12rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #intro-content {
+        padding-right: 10rem;
+    }
+}
+
 /* main content classes */
 .main-content-container {
     display: flex;
@@ -116,6 +128,11 @@ header {
 }
 
 /* About Us */
+
+#about-us {
+    flex-direction: column;
+    row-gap: 3rem;
+}
 
 #about-bros-container {
     width: 40%;
