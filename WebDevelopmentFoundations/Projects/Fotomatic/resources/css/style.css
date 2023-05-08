@@ -120,7 +120,6 @@ header .mobile {
     justify-content: flex-start;
     align-items: center;
     height: 43.5rem;
-    padding-left: 6.25rem;
     background-image: url("../images/banner-landingpage.jpg");
     background-size: cover;
 }
@@ -165,6 +164,12 @@ header .mobile {
 #sign-up-cta .button {
     margin-top: 1.625rem;
     padding: 1.25rem 7.25rem;
+}
+
+@media only screen and (min-width: 761px) {
+    #sign-up-section {
+        padding-left: 6.25rem;
+    }
 }
 
 @media only screen and (max-width: 760px) {
