@@ -26,6 +26,10 @@ img {
     color: #179c42;
 }
 
+.yellow-background {
+    background-color: #f3cc41;
+}
+
 /* Header */
 header {
     display: flex;
@@ -55,7 +59,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f3cc41;
     padding: 3rem;
 }
 
@@ -89,9 +92,8 @@ header {
     }
 }
 
-/* Our Services */
-
-#our-services {
+/* main content classes */
+.main-content-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +101,7 @@ header {
     padding: 3rem;
 }
 
-#our-services-statement {
+.content-text {
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -107,12 +109,14 @@ header {
     max-width: 45%;
 }
 
+/* Our Services */
+
 #our-services-statement ul {
     padding-left: 3rem;
 }
 
-@media only screen and (min-width: 1480px) {
-    #our-services {
-        padding-left: 15rem;
-    }
+/* About Us */
+
+#about-bros-container {
+    width: 40%;
 }
