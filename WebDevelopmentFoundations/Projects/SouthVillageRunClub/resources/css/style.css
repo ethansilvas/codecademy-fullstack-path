@@ -58,6 +58,9 @@ header {
     background-color: teal;
     color: lightsalmon;
     padding: 1rem 0 0.5rem 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 header nav li {
