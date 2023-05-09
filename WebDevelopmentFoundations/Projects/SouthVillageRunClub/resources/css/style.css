@@ -11,6 +11,7 @@ html {
 body {
     font-family: Montserrat, sans-serif;
     background-color: lightsalmon;
+    color: yellow;
 }
 
 img {
@@ -91,7 +92,6 @@ header nav li {
 }
 
 #meet-up h2 {
-    color: yellow;
     margin-bottom: 1rem;
 }
 
@@ -99,11 +99,28 @@ header nav li {
 
 #testimonial {
     background-color: teal;
-    color: yellow;
     padding: 2rem 1rem 5rem 1rem;
 }
 
 #testimonial h2 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+/* Join the Fun */
+
+#join-the-fun {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+#join-fun-images {
+    margin-bottom: 5rem;
+}
+
+#meeting-place-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
 }
