@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: lightsalmon;
+}
+
+
+/* Header */
+
+header {
+    background-color: teal;
+    color: lightsalmon;
+    padding: 1rem 0 0.5rem 2rem;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+/* Intro Section */
+
+#intro {
+    background-image: url("../images/intro-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: coral;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#intro h1 {
+    background-color: moccasin;
+    padding: 2rem;
+}
+
