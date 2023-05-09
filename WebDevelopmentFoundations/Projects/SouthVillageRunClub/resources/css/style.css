@@ -13,6 +13,35 @@ body {
     background-color: lightsalmon;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Universal classes */
+
+.small-image-row {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.small-image-container {
+    width: 30%;
+}
+
+@media screen and (max-width: 1050px) {
+    .small-image-row {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }
+
+    .small-image-container {
+        width: 80%;
+    }
+}
 
 /* Header */
 
@@ -27,7 +56,7 @@ header nav li {
     margin-right: 2rem;
 }
 
-/* Intro Section */
+/* Intro */
 
 #intro {
     background-image: url("../images/intro-background.jpg");
@@ -45,4 +74,15 @@ header nav li {
     background-color: moccasin;
     padding: 2rem;
 }
+
+/* Meet Up */
+
+#meet-up p {
+    color: white;
+}
+
+#meet-up h2 {
+    color: yellow;
+}
+
 
