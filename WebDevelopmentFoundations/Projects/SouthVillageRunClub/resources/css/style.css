@@ -77,12 +77,22 @@ header nav li {
 
 /* Meet Up */
 
+#meet-up {
+    padding-bottom: 5rem;
+}
+
+#meet-up-text {
+    margin: 3rem 1rem;
+    line-height: 2rem;
+}
+
 #meet-up p {
     color: white;
 }
 
 #meet-up h2 {
     color: yellow;
+    margin-bottom: 1rem;
 }
 
 
