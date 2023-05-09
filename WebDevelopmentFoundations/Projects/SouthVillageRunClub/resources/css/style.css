@@ -95,4 +95,15 @@ header nav li {
     margin-bottom: 1rem;
 }
 
+/* Testimonial Quote */
 
+#testimonial {
+    background-color: teal;
+    color: yellow;
+    padding: 2rem 1rem 5rem 1rem;
+}
+
+#testimonial h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
